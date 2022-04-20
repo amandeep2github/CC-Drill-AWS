@@ -27,3 +27,11 @@ yum install unzip -y
 unzip awscliv2.zip
 ./aws/install
 ```
+
+For any problem in user-data section, look at following places
+```
+/var/lib/cloud/instances/<instance-id>/user-data.txt
+/var/log/cloud-init*.log
+/etc/init.d/httpd
+/var/www/html
+```
