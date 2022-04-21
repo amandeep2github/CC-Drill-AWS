@@ -18,6 +18,9 @@
 - Now create a Lauch configuration for ec2 above so that you can reuse ec2 creation config
 - Give it to an ASG, there is option in LC to attach that to ASG
 - In ASG you can give ALB as well
+- test your ALB using browser
+- Now in route 53 create a simple record say web.conducive.in of A type point that to ALB using simple routing
+- Hit the url web.conducive.in
 
 
 Please note if aws or unzip not installed
