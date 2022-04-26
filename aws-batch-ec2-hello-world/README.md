@@ -13,5 +13,5 @@ docker run -it image /bin/bash
 docker history
 docker ps -a
 docker container ls
-
+docker inspect <image>
 ```
