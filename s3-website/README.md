@@ -18,4 +18,4 @@
 ```
 - In route 53 create a hosted with name example.com
 - take name server records, four in this case and update go daddy's DNS service (may require customer service professional)
-- check
+- in hosted zone create A record for your domain and choose s3 url 
