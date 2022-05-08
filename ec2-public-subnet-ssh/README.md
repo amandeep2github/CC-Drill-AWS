@@ -12,4 +12,6 @@ Open Ec2 service in console and choose following
 - Network i.e. VPC,subnet and sec group
 - Volume
 
-Launch
+## Concepts
+### aws
+- public subnet is where igw is having route in route table connected to subnet for for 0.0.0.0/0

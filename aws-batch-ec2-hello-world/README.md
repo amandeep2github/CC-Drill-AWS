@@ -1,4 +1,4 @@
-# make an aws batch job to run on ec2
+# make an aws batch job to run on ec2 (todo)
 
 ## Steps
 - make an ec2 with docker
