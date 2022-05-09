@@ -6,3 +6,8 @@
 - in athena console again, datasources, create new data sources, choose s3 glue data catalog
 - create table, give table name, choose database (can be existing), choose s3 location, choose dataset e.g. JSON, column details e.g. productname string, productId string
 - create table and query
+
+## Concepts
+### aws
+- athena saves result in a bucket location
+- athena uses glue which is ETL tool to transform data in file formats to athena report
