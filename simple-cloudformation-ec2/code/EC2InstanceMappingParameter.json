@@ -11,7 +11,7 @@
     },
     "Mappings": {
         "AMIMap": {
-            "us-east-1a": {
+            "us-east-1": {
                 "image": "ami-0915bcb5fa77e4892"
             }
         }
