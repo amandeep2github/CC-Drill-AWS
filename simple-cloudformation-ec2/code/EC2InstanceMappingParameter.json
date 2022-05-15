@@ -1,0 +1,39 @@
+{
+    "Parameters": {
+        "ImageParam": {
+            "Type": "String",
+            "Default": "t3.micro",
+            "AllowedValues": [
+                "t2.micro",
+                "t3.micro"
+            ]
+        }
+    },
+    "Mappings": {
+        "AMIMap": {
+            "us-east-1a": {
+                "image": "ami-0915bcb5fa77e4892"
+            }
+        }
+    },
+    "Resources": {
+        "MyInstance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "AvailabilityZone": "",
+                "Image": {
+                    "FindInMap": [
+                        "AMIMap",
+                        {
+                            "Ref": "AWS::Region"
+                        },
+                        "image"
+                    ]
+                },
+                "Size": {
+                    "Ref": "ImageParam"
+                }
+            }
+        }
+    }
+}
