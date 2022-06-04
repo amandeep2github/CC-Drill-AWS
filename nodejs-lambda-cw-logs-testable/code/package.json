@@ -1,0 +1,11 @@
+{
+  "name": "node-simple-lambda",
+  "version": "1.0.0",
+  "description": "A simple lambda which just logs event sent in test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amandeep",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+{
+   "Resources":{
+      "MyInstance":{
+         "Type":"AWS::EC2::Instance",
+         "Properties":{
+            "AvailabilityZone":"us-east-1a",
+            "Image":"ami-0915bcb5fa77e4892",
+            "Size":"t3.micro"
+         }
+      },
+      "EIP":{
+         "Type":"AWS::EC2::EIP",
+         "Properties":{
+            "InstanceId":{
+               "Ref":"MyInstance"
+            }
+         }
+      }
+   }
+}
