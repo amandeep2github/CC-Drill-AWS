@@ -6,11 +6,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-<<<<<<< HEAD
             "Resource": "arn:aws:s3:::<bucket-name>/*"
-=======
-            "Resource": "arn:aws:s3:::conducive.in/*"
->>>>>>> 837fb8c699e4e4c572ec2f6708e171f2b4b58681
         }
     ]
 }
