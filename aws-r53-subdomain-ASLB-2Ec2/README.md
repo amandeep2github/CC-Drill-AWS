@@ -18,6 +18,7 @@
 - Now create a Lauch configuration for ec2 above so that you can reuse ec2 creation config
 - Give it to an ASG, there is option in LC to attach that to ASG
 - In ASG you can give ALB as well
+- in r53 under hosted zone create 'A' record for subdomain say web.domain.com and point to ALB
 
 
 Please note if aws or unzip not installed

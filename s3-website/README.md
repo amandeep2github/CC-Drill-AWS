@@ -16,6 +16,6 @@
 "Action": "s3:GetObject",
 "Resource":"arn:aws::example.com/*"
 ```
-- In route 53 create a hosted with name example.com
+- In route 53 create a hosted zone with name example.com
 - take name server records, four in this case and update go daddy's DNS service (may require customer service professional)
-- check
+- create 'A' record pointing to s3-website.<region>.amazonaws.com (please note bucker name will come from hosted zone)
