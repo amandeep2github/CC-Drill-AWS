@@ -1,4 +1,4 @@
-# create a distribution on lab
+# create a cloudfront distribution on alb
 
 ## steps
 - given you have alb 

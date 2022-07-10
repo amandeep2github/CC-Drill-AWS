@@ -7,10 +7,11 @@
 Open Ec2 service in console and choose following
 - region
 - AMI
-- instance
+- instance type e.g. t3.micro etc.
 - Key Pair
 - Network i.e. VPC,subnet and sec group
 - Volume
+- in sec group create ingress for ssh on port 22
 
 ## Concepts
 ### aws

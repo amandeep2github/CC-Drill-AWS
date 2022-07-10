@@ -2,7 +2,7 @@
 
 ## Steps
 - make a node.js file with async function with one parameter event and simple console logs
-- make a zip of the content, please note, get inside your project dir and compress
+- make a zip of the content, please note that you make a zip from inside your project dir
 - create a new function, choose basic role creation for lambda with trusted entity Lambda
 - upload the code 
 - test the function
