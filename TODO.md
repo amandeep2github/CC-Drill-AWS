@@ -1,2 +1,2 @@
 # To be completed
-- Fargate task for nginx
+- ~~Fargate task for nginx~~
