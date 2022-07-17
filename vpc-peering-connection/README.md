@@ -21,4 +21,4 @@
 | 172.31.0.0/16|pcx-08b97a7a9f972d20b|
 
 
-![Diagram](peering-same-account.drawio.png)
+![Diagram](./draw.io/peering-same-account.drawio.png)
